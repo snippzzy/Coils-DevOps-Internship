@@ -216,8 +216,10 @@ In this step you will create a test database (DB) with simple "To do list" and c
 - To create a new database, run the following command from your MySQL console:
 
   `mysql> CREATE DATABASE 'example_database';` 
+  
   `OR` 
-  `Sudo mysqladmin create example_database`
+  
+`Sudo mysqladmin create example_database`
 
 - To Create a user and password run the command below:
 
@@ -241,11 +243,7 @@ In this step you will create a test database (DB) with simple "To do list" and c
 
 - Next, we’ll create a test table named todo_list. From the MySQL console, run the following statement:
 
-  CREATE TABLE example_database.todo_list (
-  mysql>     item_id INT AUTO_INCREMENT,
-  mysql>     content VARCHAR(255),
-  mysql>     PRIMARY KEY(item_id)
-  mysql> );
+  CREATE TABLE example_database.todo_list ( item_id INT AUTO_INCREMENT, content VARCHAR(255), PRIMARY KEY(item_id);
 
 - Insert a few rows of content in the test table. You might want to repeat the next command a few times, using different VALUES:
 
