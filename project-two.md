@@ -190,8 +190,8 @@ You can do this by creating a test PHP file in your document root.
   
 - paste the following lines below into the new file.
 
-  <?php
-  phpinfo();
+  `<?php
+  phpinfo();`
 
 - You can access your website with the Url below:
 
