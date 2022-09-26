@@ -215,7 +215,7 @@ In this step you will create a test database (DB) with simple "To do list" and c
 
 - To create a new database, run the following command from your MySQL console:
 
-  `mysql> CREATE DATABASE 'example_database';`
+  `mysql> CREATE DATABASE 'example_database';` `OR Sudo mysqladmin create example_database`
 
 - To Create a user and password run the command below:
 
