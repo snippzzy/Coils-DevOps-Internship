@@ -219,7 +219,7 @@ In this step you will create a test database (DB) with simple "To do list" and c
   
   `OR` 
   
-`Sudo mysqladmin create example_database`
+  `sudo mysqladmin create example_database`
 
 - To Create a user and password run the command below:
 
