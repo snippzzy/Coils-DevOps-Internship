@@ -165,14 +165,16 @@ With the default DirectoryIndex settings on Apache, a file named index.html will
 
 `#Change this:`
 `<IfModule mod_dir.c> `
-        `DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm`
+ 
+         `DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm`
         
-        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
-  `</IfModule>`
+ `</IfModule>`
 
 `#To this:`
 `<IfModule mod_dir.c> `
+
         `DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm`
+        
   `</IfModule>`
   
 - After saving and closing the file, you will need to reload Apache so the changes take effect:
